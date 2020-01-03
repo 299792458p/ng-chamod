@@ -60,6 +60,6 @@
   "chamod.settings.themes.sticky-header": "Sticky header",
   "chamod.settings.themes.title": "Themes",
   "chamod.settings.title": "Settings",
-  "chamod.title.long": "Angular NgRx Material Starter",
-  "chamod.title.short": "Angular Starter"
+  "chamod.title.long": "Chamod",
+  "chamod.title.short": "Chamod"
 }
