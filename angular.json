@@ -13,7 +13,7 @@
       },
       "root": "projects/chamod",
       "sourceRoot": "projects/chamod/src",
-      "prefix": "anms",
+      "prefix": "chamod",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

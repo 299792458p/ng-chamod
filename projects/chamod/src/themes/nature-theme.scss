@@ -1,9 +1,9 @@
-$anms-nature-primary: mat-palette($mat-brown, 700, 300, 900);
-$anms-nature-accent: mat-palette($mat-deep-purple, 300);
-$anms-nature-warn: mat-palette($mat-red, 600);
+$chamod-nature-primary: mat-palette($mat-brown, 700, 300, 900);
+$chamod-nature-accent: mat-palette($mat-deep-purple, 300);
+$chamod-nature-warn: mat-palette($mat-red, 600);
 
-$anms-nature-theme: mat-light-theme(
-  $anms-nature-primary,
-  $anms-nature-accent,
-  $anms-nature-warn
+$chamod-nature-theme: mat-light-theme(
+  $chamod-nature-primary,
+  $chamod-nature-accent,
+  $chamod-nature-warn
 );

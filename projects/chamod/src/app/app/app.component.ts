@@ -22,7 +22,7 @@ import {
 } from '../core/settings/settings.actions';
 
 @Component({
-  selector: 'anms-root',
+  selector: 'chamod-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [routeAnimations]
@@ -35,13 +35,13 @@ export class AppComponent implements OnInit {
   logo = require('../../assets/logo.png');
   languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he'];
   navigation = [
-    { link: 'about', label: 'anms.menu.about' },
-    { link: 'feature-list', label: 'anms.menu.features' },
-    { link: 'examples', label: 'anms.menu.examples' }
+    { link: 'about', label: 'chamod.menu.about' },
+    { link: 'feature-list', label: 'chamod.menu.features' },
+    { link: 'examples', label: 'chamod.menu.examples' }
   ];
   navigationSideMenu = [
     ...this.navigation,
-    { link: 'settings', label: 'anms.menu.settings' }
+    { link: 'settings', label: 'chamod.menu.settings' }
   ];
 
   isAuthenticated$: Observable<boolean>;
