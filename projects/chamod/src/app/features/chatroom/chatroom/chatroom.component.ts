@@ -5,7 +5,7 @@ import { Feature, rooms } from '../chatroom.data';
 @Component({
   selector: 'chamod-chatroom',
   templateUrl: './chatroom.component.html',
-  styleUrls: ['./chatroom.component.css'],
+  styleUrls: ['./chatroom.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ChatroomComponent implements OnInit {

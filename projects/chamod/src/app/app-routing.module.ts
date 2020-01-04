@@ -4,8 +4,13 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'about',
+    redirectTo: 'chatroom',
     pathMatch: 'full'
+  },
+  {
+    path: 'chatroom',
+    loadChildren: () =>
+      import('./features/chatroom/chatroom.module').then(m => m.ChatroomModule)
   },
   {
     path: 'about',

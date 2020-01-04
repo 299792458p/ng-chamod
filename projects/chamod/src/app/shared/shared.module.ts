@@ -94,6 +94,7 @@ library.add(
 import { BigInputComponent } from './big-input/big-input/big-input.component';
 import { BigInputActionComponent } from './big-input/big-input-action/big-input-action.component';
 import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
+import { ChatBoxComponent } from './chatbox/chatbox.component';
 
 @NgModule({
   imports: [
@@ -125,7 +126,8 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
   declarations: [
     BigInputComponent,
     BigInputActionComponent,
-    RtlSupportDirective
+    RtlSupportDirective,
+    ChatBoxComponent
   ],
   exports: [
     CommonModule,
@@ -159,7 +161,8 @@ import { RtlSupportDirective } from './rtl-support/rtl-support.directive';
 
     BigInputComponent,
     BigInputActionComponent,
-    RtlSupportDirective
+    RtlSupportDirective,
+    ChatBoxComponent
   ]
 })
 export class SharedModule {}

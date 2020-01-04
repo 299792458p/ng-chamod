@@ -31,6 +31,7 @@
   "chamod.features.typescript": "Superior developer experience, code completion, refactoring and less bugs",
   "chamod.footer.changelog": "Show changelog",
   "chamod.header.github": "Project Github Repository",
+  "chamod.menu.chatroom": "Chat",
   "chamod.menu.about": "About",
   "chamod.menu.examples": "Examples",
   "chamod.menu.features": "Features",
@@ -61,5 +62,6 @@
   "chamod.settings.themes.title": "Themes",
   "chamod.settings.title": "Settings",
   "chamod.title.long": "Chamod",
-  "chamod.title.short": "Chamod"
+  "chamod.title.short": "Chamod",
+  "chamod.chatroom.title": "Chat Rooms"
 }

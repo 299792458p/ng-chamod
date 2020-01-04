@@ -1,5 +1,5 @@
 <babeledit_project version="1.0">
-    <preset_collections/>
+    <preset_collections />
     <framework>ngx-translate</framework>
     <filename>main.babel</filename>
     <folder_node>
@@ -2414,7 +2414,7 @@
     </translation_files>
     <editor_configuration>
         <copy_templates>
-            <copy_template>{{'%1' | translate}}</copy_template>
+            <copy_template>{{ '%1' | translate }}</copy_template>
             <copy_template>[translate]="'%1'"</copy_template>
             <copy_template>_('%1')</copy_template>
         </copy_templates>

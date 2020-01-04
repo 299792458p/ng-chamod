@@ -35,6 +35,7 @@ export class AppComponent implements OnInit {
   logo = require('../../assets/logo.png');
   languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he'];
   navigation = [
+    { link: 'chatroom', label: 'chamod.menu.chatroom' },
     { link: 'about', label: 'chamod.menu.about' },
     { link: 'feature-list', label: 'chamod.menu.features' },
     { link: 'examples', label: 'chamod.menu.examples' }
