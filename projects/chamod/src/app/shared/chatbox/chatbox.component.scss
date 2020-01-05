@@ -1,9 +1,73 @@
-.chat {
-  background-color: #ffffff;
+.chat-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-box {
+  display: flex;
+  align-items: center;
   border: none;
   border-radius: 0.25rem;
   -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
+  margin-bottom: 2em;
+  background-color: #eeeeee;
+  height: 36rem;
+  overflow: hidden;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 15rem;
+}
+
+.chat-list {
+  .chat-avatar {
+    display: flex;
+
+    a img {
+      border-radius: 50%;
+      width: 40px;
+      box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .chat-avatar-detail {
+    margin-left: 10px;
+
+    .chat-avatar-name {
+    }
+
+    .chat-avatar-datetime {
+      font-size: 0.8rem;
+      color: #7a625b;
+    }
+  }
+}
+
+.chat-profile {
+  height: 36rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .chat-profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+}
+
+.chat {
+  background-color: #ffffff;
   color: #222b45;
   font-family: Open Sans, sans-serif;
   font-size: 0.9375rem;
@@ -16,8 +80,7 @@
 }
 
 .chat.size-large {
-  height: 36rem;
-  margin-bottom: 2em;
+  height: 100%;
 }
 
 .chat.status-basic .header {
@@ -25,15 +88,27 @@
   color: #222b45;
 }
 
-.chat .header {
+.chat .chat-header {
   border-bottom: 1px solid #edf1f7;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  padding: 1rem 1.25rem;
+  padding: 0.65rem 1rem;
   font-family: Open Sans, sans-serif;
   font-size: 0.9375rem;
   font-weight: 600;
   line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .chat-header-action {
+    display: flex;
+    align-items: center;
+
+    button + button {
+      margin-left: 8px;
+    }
+  }
 }
 
 .chat .scrollable {
@@ -201,7 +276,8 @@ p,
   flex-direction: column;
 }
 
-.chat-message .chat-message-text .sender {
+.chat-message .chat-message-text .sender,
+.chat-message .chat-message-quote .sender {
   font-size: 0.875rem;
   color: #8f9bb3;
   margin-bottom: 0.5rem;

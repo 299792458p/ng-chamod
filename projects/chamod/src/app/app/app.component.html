@@ -10,7 +10,7 @@
           routerLinkActive="active">
           {{item.label | translate}}
         </a>
-        <a mat-list-item href="https://github.com/tomastrajan/chamod" target="_blank">
+        <a mat-list-item href="https://github.com/299792458p/ng-chamod" target="_blank">
           Github
         </a>
       </mat-nav-list>
@@ -66,7 +66,7 @@
           </button>
 
           <a [matTooltip]="'chamod.header.github' | translate" matTooltipPosition="before" mat-icon-button
-            class="link d-none d-sm-inline" href="https://github.com/tomastrajan/chamod" target="_blank">
+            class="link d-none d-sm-inline" href="https://github.com/299792458p/ng-chamod" target="_blank">
             <fa-icon [icon]="['fab','github']"></fa-icon>
           </a>
 
@@ -85,8 +85,8 @@
         <router-outlet #o="outlet"></router-outlet>
       </div>
 
-      <div class="footer">
-        <!-- <div class="row">
+      <!-- <div class="footer">
+        <div class="row">
           <div class="col-sm-12 links">
             <a href="https://www.github.com/tomastrajan" target="_blank">
               <fa-icon [icon]="['fab','github']"></fa-icon>
@@ -114,18 +114,18 @@
               <span>Slides</span>
             </a>
           </div>
-        </div> -->
+        </div>
         <div class="row">
           <div class="col-12 signature">
             &#169; <span class="year">{{year}}</span>
             <br class="d-block d-sm-none">
             <a [matTooltip]="'chamod.footer.changelog' | translate" matTooltipPosition="before"
-              href="https://github.com/tomastrajan/chamod/blob/master/CHANGELOG.md">
+              href="https://github.com/299792458p/ng-chamod/blob/master/CHANGELOG.md">
               {{version}} <span *ngIf="!isProd">[{{envName}}]</span>
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
 

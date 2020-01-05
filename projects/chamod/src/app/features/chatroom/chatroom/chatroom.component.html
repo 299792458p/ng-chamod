@@ -4,28 +4,9 @@
       <h1 rtl class="main-heading">{{ 'chamod.chatroom.title' | translate }}</h1>
     </div>
   </div>
-  <chamod-chatbox></chamod-chatbox>
-  <!-- <div class="row align-items-end">
-    <div *ngFor="let room of rooms" class="col-md-6 col-lg-4" [ngClass]="routeAnimationsElements">
-      <mat-card>
-        <mat-card-title>
-          <code *ngIf="room.version">{{room.version}}</code>{{room.name | translate}}
-        </mat-card-title>
-        <mat-card-subtitle rtl>
-          {{ room.description | translate }}
-        </mat-card-subtitle>
-        <mat-card-actions>
-          <a *ngIf="room.github" mat-icon-button [href]="room.github" target="_blank">
-            <fa-icon [icon]="['fab','github']"></fa-icon>
-          </a>
-          <a mat-button [href]="room.documentation" target="_blank">
-            <fa-icon icon="book"></fa-icon>{{ 'chamod.features.documentation' | translate }}
-          </a>
-          <a *ngIf="room.medium" mat-button [href]="room.medium" target="_blank">
-            <fa-icon [icon]="['fab','medium-m']"></fa-icon>{{ 'chamod.features.guide' | translate }}
-          </a>
-        </mat-card-actions>
-      </mat-card>
+  <div class="row align-items-end justify-content-center">
+    <div class="d-flex">
+      <chamod-chatbox [ngClass]="routeAnimationsElements"></chamod-chatbox>
     </div>
-  </div> -->
+  </div>
 </div>
