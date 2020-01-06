@@ -13,7 +13,7 @@
   box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
   margin-bottom: 2em;
   background-color: #eeeeee;
-  height: 36rem;
+  height: calc(100vh - 155px);
   overflow: hidden;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .chat-profile {
-  height: 36rem;
+  height: calc(100vh - 155px);
   margin-bottom: 2rem;
   width: 250px;
   display: flex;
