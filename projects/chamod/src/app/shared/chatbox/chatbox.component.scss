@@ -52,10 +52,10 @@
 .chat-profile {
   height: 36rem;
   margin-bottom: 2rem;
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
 
   .chat-profile-avatar {
     width: 200px;
